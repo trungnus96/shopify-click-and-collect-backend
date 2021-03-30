@@ -1,6 +1,6 @@
 // services
-import * as BrauzService from "../services/BrauzService";
-import ShopifyService from "../services/ShopifyService";
+import * as BrauzService from "../../services/BrauzService";
+import ShopifyService from "../../services/ShopifyService";
 
 // constants
 import {
@@ -23,7 +23,7 @@ router.all(`/order-creation`, async (req, res) => {
     const origin = "https://brauz-store.myshopify.com";
 
     // get Shopify access token
-    var {
+    const {
       error_message,
       shopify_access_token,
     } = await BrauzService.getShopifyAccessTokenFromBrauzDB();

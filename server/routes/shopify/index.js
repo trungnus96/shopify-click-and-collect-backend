@@ -1,6 +1,6 @@
 // services
-import * as BrauzService from "../services/BrauzService";
-import ShopifyService from "../services/ShopifyService";
+import * as BrauzService from "../../services/BrauzService";
+import ShopifyService from "../../services/ShopifyService";
 
 // constants
 import {
@@ -9,13 +9,12 @@ import {
   FULFILLMENT_METHOD_VALUE_DELIVERY,
   INTERNAL_ID_KEY,
 } from "../../constants";
-import { COLLECTION_NAME_SHOPIFY_DRAFT_ORDER } from "../../constants/firebase";
-
-// firebase
-import { db } from "../../libs/firebase";
 
 // utilities
 import { generateUniqueId } from "../../utilities";
+
+// db & model dependencies
+import DraftOrder from "../../models/draft-order";
 
 // router
 const router = require("express").Router();
@@ -128,23 +127,20 @@ router.post(`/create-draft-order`, async (req, res) => {
     const { draft_order: _draft_order = {} } = data;
     const { invoice_url = "", id: draft_order_id = "" } = _draft_order;
 
-    const draft_order_in_firebase_payload = {
+    await DraftOrder.create({
       internal_id: unique_id,
+      status: "draft",
       draft_order: _draft_order,
       epoch_start_time: `1617091401000`,
       epoch_end_time: `1617091401000`,
-      origin,
-      group_number,
-      items,
       click_and_collect_time,
       click_and_collect_date,
+      origin: "https://brauz-store.myshopify.com",
+      group_number: "trunggroupnumber",
+      items,
       store_name,
       store_id,
-    };
-
-    await db
-      .collection(COLLECTION_NAME_SHOPIFY_DRAFT_ORDER)
-      .add(draft_order_in_firebase_payload);
+    });
 
     return res.status(200).json({
       success: true,

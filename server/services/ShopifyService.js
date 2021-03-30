@@ -2,7 +2,7 @@
 import * as ShopifyApi from "../api/ShopifyApi";
 
 // utilities
-import { makeARequest } from "../../utilities/api";
+import { makeARequest } from "../utilities/api";
 
 export default class ShopifyService {
   constructor({ origin, shopify_access_token }) {
@@ -99,7 +99,7 @@ export default class ShopifyService {
     return src;
   }
 
-  async createDraftOrder({ draft_order }) {
+  async createDraftOrder(draft_order) {
     const data = await makeARequest({
       name: "Place draft order",
       is_check_success: false,

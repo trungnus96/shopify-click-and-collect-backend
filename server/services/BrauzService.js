@@ -2,7 +2,7 @@
 import * as BrauzApi from "../api/BrauzApi";
 
 // utilities
-import { makeARequest } from "../../utilities/api";
+import { makeARequest } from "../utilities/api";
 
 export async function getShopifyAccessTokenFromBrauzDB() {
   return {

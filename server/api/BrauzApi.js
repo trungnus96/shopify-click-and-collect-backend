@@ -1,10 +1,10 @@
 import { createAxiosRequest } from "./Axios";
 
 // constants
-import { BRAUZ_API_URL, BRAUZ_API_URL_LAMBDA } from "../../constants/env";
+import { BRAUZ_API_URL, BRAUZ_API_URL_LAMBDA } from "../constants/env";
 
 // utilities
-import { toUrlEncoded } from "../../utilities";
+import { toUrlEncoded } from "../utilities";
 
 export function getShopifyAccessTokenFromBrauzDB({ domain }) {
   const url =
