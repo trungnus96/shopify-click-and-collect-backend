@@ -1,0 +1,333 @@
+{
+  "id": 3716231332009,
+  "email": "trung@brauz.com",
+  "closed_at": null,
+  "created_at": "2021-03-30T21:35:31+11:00",
+  "updated_at": "2021-03-30T21:35:32+11:00",
+  "number": 27,
+  "note": null,
+  "token": "b01b0e70c7b9facb1c9c428419eb439f",
+  "gateway": "shopify_payments",
+  "test": true,
+  "total_price": "4188.00",
+  "subtotal_price": "4188.00",
+  "total_weight": 0,
+  "total_tax": "0.00",
+  "taxes_included": false,
+  "currency": "AUD",
+  "financial_status": "paid",
+  "confirmed": true,
+  "total_discounts": "0.00",
+  "total_line_items_price": "4188.00",
+  "cart_token": null,
+  "buyer_accepts_marketing": false,
+  "name": "#1027",
+  "referring_site": null,
+  "landing_site": "/26754154665/invoices/cc7232c1bdbe47c00f9b99fd9b590d15?checkout[shipping_address][address1]=Nike%20Melbourne%20Central%20,%20414%20La%20Trobe%20Street&checkout[shipping_address][city]=Melbourne&checkout[shipping_address][company]=Store+Pickup+Location&checkout[shipping_address][country]=AU&checkout[shipping_address][first_name]=&checkout[shipping_address][last_name]=&checkout[shipping_address][phone]=+61416024875&checkout[shipping_address][province]=VIC&checkout[shipping_address][zip]=3000&skip_shopify_pay=true&step=contact_information",
+  "cancelled_at": null,
+  "cancel_reason": null,
+  "total_price_usd": "3198.22",
+  "checkout_token": "cdc28c503fda181d698b13212d2e8ad9",
+  "reference": null,
+  "user_id": null,
+  "location_id": 36676796585,
+  "source_identifier": null,
+  "source_url": null,
+  "processed_at": "2021-03-30T21:35:30+11:00",
+  "device_id": null,
+  "phone": null,
+  "customer_locale": "en",
+  "app_id": 1354745,
+  "browser_ip": "59.102.18.51",
+  "client_details": {
+    "accept_language": "en-US,en;q=0.9,en-AU;q=0.8,vi;q=0.7",
+    "browser_height": 1184,
+    "browser_ip": "59.102.18.51",
+    "browser_width": 2133,
+    "session_hash": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+  },
+  "landing_site_ref": null,
+  "order_number": 1027,
+  "discount_applications": [],
+  "discount_codes": [],
+  "note_attributes": [],
+  "payment_details": {
+    "credit_card_bin": "424242",
+    "avs_result_code": "Y",
+    "cvv_result_code": "M",
+    "credit_card_number": "•••• •••• •••• 4242",
+    "credit_card_company": "Visa"
+  },
+  "payment_gateway_names": ["shopify_payments"],
+  "processing_method": "direct",
+  "checkout_id": 19908369678505,
+  "source_name": "web",
+  "fulfillment_status": null,
+  "tax_lines": [],
+  "tags": "",
+  "contact_email": "trung@brauz.com",
+  "order_status_url": "https://brauz-store.myshopify.com/26754154665/orders/b01b0e70c7b9facb1c9c428419eb439f/authenticate?key=bad266a6e57303bdaaea5f9aae4fd97d",
+  "presentment_currency": "AUD",
+  "total_line_items_price_set": {
+    "shop_money": { "amount": "4188.00", "currency_code": "AUD" },
+    "presentment_money": { "amount": "4188.00", "currency_code": "AUD" }
+  },
+  "total_discounts_set": {
+    "shop_money": { "amount": "0.00", "currency_code": "AUD" },
+    "presentment_money": { "amount": "0.00", "currency_code": "AUD" }
+  },
+  "total_shipping_price_set": {
+    "shop_money": { "amount": "0.00", "currency_code": "AUD" },
+    "presentment_money": { "amount": "0.00", "currency_code": "AUD" }
+  },
+  "subtotal_price_set": {
+    "shop_money": { "amount": "4188.00", "currency_code": "AUD" },
+    "presentment_money": { "amount": "4188.00", "currency_code": "AUD" }
+  },
+  "total_price_set": {
+    "shop_money": { "amount": "4188.00", "currency_code": "AUD" },
+    "presentment_money": { "amount": "4188.00", "currency_code": "AUD" }
+  },
+  "total_tax_set": {
+    "shop_money": { "amount": "0.00", "currency_code": "AUD" },
+    "presentment_money": { "amount": "0.00", "currency_code": "AUD" }
+  },
+  "line_items": [
+    {
+      "id": 9755326251177,
+      "variant_id": 39512662180009,
+      "title": "Engagement Ring with 1/2 Carat TW of Diamonds in 10ct White & Yellow Gold",
+      "quantity": 2,
+      "sku": "",
+      "variant_title": "",
+      "vendor": "Brauz Store",
+      "fulfillment_service": "manual",
+      "product_id": 6626990686377,
+      "requires_shipping": true,
+      "taxable": false,
+      "gift_card": false,
+      "name": "Engagement Ring with 1/2 Carat TW of Diamonds in 10ct White & Yellow Gold",
+      "variant_inventory_management": null,
+      "properties": [
+        { "name": "Ref", "value": "trung123#3204051F#1617100447" },
+        { "name": "fulfillment_method", "value": "Click & Collect" },
+        { "name": "location_id", "value": "storeIDD" },
+        { "name": "store_name", "value": "Trung Store" },
+        { "name": "pick_up_time", "value": "30/11/21, 9:00 - 12:00" }
+      ],
+      "product_exists": true,
+      "fulfillable_quantity": 2,
+      "grams": 0,
+      "price": "1999.00",
+      "total_discount": "0.00",
+      "fulfillment_status": null,
+      "price_set": {
+        "shop_money": { "amount": "1999.00", "currency_code": "AUD" },
+        "presentment_money": { "amount": "1999.00", "currency_code": "AUD" }
+      },
+      "total_discount_set": {
+        "shop_money": { "amount": "0.00", "currency_code": "AUD" },
+        "presentment_money": { "amount": "0.00", "currency_code": "AUD" }
+      },
+      "discount_allocations": [],
+      "duties": [],
+      "admin_graphql_api_id": "gid://shopify/LineItem/9755326251177",
+      "tax_lines": [],
+      "origin_location": {
+        "id": 2844901015721,
+        "country_code": "AU",
+        "province_code": "VIC",
+        "name": "Trung Shopify Store",
+        "address1": "414 La Trobe St",
+        "address2": "",
+        "city": "Reservoir",
+        "zip": "3000"
+      },
+      "destination_location": {
+        "id": 2845165945001,
+        "country_code": "AU",
+        "province_code": "VIC",
+        "name": "Nguen",
+        "address1": "Nike Melbourne Central , 414 La Trobe Street",
+        "address2": "",
+        "city": "Melbourne",
+        "zip": "3000"
+      }
+    },
+    {
+      "id": 9755326283945,
+      "variant_id": 39512672764073,
+      "title": "Nike Air Max 90 EOI",
+      "quantity": 1,
+      "sku": "",
+      "variant_title": "US 9",
+      "vendor": "Brauz Store",
+      "fulfillment_service": "manual",
+      "product_id": 6626997010601,
+      "requires_shipping": true,
+      "taxable": false,
+      "gift_card": false,
+      "name": "Nike Air Max 90 EOI - US 9",
+      "variant_inventory_management": null,
+      "properties": [{ "name": "fulfill_method", "value": "delivery" }],
+      "product_exists": true,
+      "fulfillable_quantity": 1,
+      "grams": 0,
+      "price": "190.00",
+      "total_discount": "0.00",
+      "fulfillment_status": null,
+      "price_set": {
+        "shop_money": { "amount": "190.00", "currency_code": "AUD" },
+        "presentment_money": { "amount": "190.00", "currency_code": "AUD" }
+      },
+      "total_discount_set": {
+        "shop_money": { "amount": "0.00", "currency_code": "AUD" },
+        "presentment_money": { "amount": "0.00", "currency_code": "AUD" }
+      },
+      "discount_allocations": [],
+      "duties": [],
+      "admin_graphql_api_id": "gid://shopify/LineItem/9755326283945",
+      "tax_lines": [],
+      "origin_location": {
+        "id": 2844901015721,
+        "country_code": "AU",
+        "province_code": "VIC",
+        "name": "Trung Shopify Store",
+        "address1": "414 La Trobe St",
+        "address2": "",
+        "city": "Reservoir",
+        "zip": "3000"
+      },
+      "destination_location": {
+        "id": 2845165945001,
+        "country_code": "AU",
+        "province_code": "VIC",
+        "name": "Nguen",
+        "address1": "Nike Melbourne Central , 414 La Trobe Street",
+        "address2": "",
+        "city": "Melbourne",
+        "zip": "3000"
+      }
+    }
+  ],
+  "fulfillments": [],
+  "refunds": [],
+  "total_tip_received": "0.0",
+  "original_total_duties_set": null,
+  "current_total_duties_set": null,
+  "admin_graphql_api_id": "gid://shopify/Order/3716231332009",
+  "metafields": [],
+  "shipping_lines": [
+    {
+      "id": 3166543839401,
+      "title": "Pickup from Trung Store, 30/11/21, 9:00 - 12:00",
+      "price": "0.00",
+      "code": "custom",
+      "source": "shopify",
+      "phone": null,
+      "requested_fulfillment_service_id": null,
+      "delivery_category": null,
+      "carrier_identifier": null,
+      "discounted_price": "0.00",
+      "price_set": {
+        "shop_money": { "amount": "0.00", "currency_code": "AUD" },
+        "presentment_money": { "amount": "0.00", "currency_code": "AUD" }
+      },
+      "discounted_price_set": {
+        "shop_money": { "amount": "0.00", "currency_code": "AUD" },
+        "presentment_money": { "amount": "0.00", "currency_code": "AUD" }
+      },
+      "discount_allocations": [],
+      "tax_lines": [
+        {
+          "title": "GST",
+          "price": "0.00",
+          "rate": 0.1,
+          "price_set": {
+            "shop_money": { "amount": "0.00", "currency_code": "AUD" },
+            "presentment_money": { "amount": "0.00", "currency_code": "AUD" }
+          }
+        }
+      ]
+    }
+  ],
+  "billing_address": {
+    "first_name": "",
+    "address1": "Nike Melbourne Central , 414 La Trobe Street",
+    "phone": null,
+    "city": "Melbourne",
+    "zip": "3000",
+    "province": "Victoria",
+    "country": "Australia",
+    "last_name": "Nguen",
+    "address2": "",
+    "company": null,
+    "latitude": -37.8100673,
+    "longitude": 144.9638486,
+    "name": "Nguen",
+    "country_code": "AU",
+    "province_code": "VIC"
+  },
+  "shipping_address": {
+    "first_name": "",
+    "address1": "Nike Melbourne Central , 414 La Trobe Street",
+    "phone": null,
+    "city": "Melbourne",
+    "zip": "3000",
+    "province": "Victoria",
+    "country": "Australia",
+    "last_name": "Nguen",
+    "address2": "",
+    "company": null,
+    "latitude": -37.8100673,
+    "longitude": 144.9638486,
+    "name": "Nguen",
+    "country_code": "AU",
+    "province_code": "VIC"
+  },
+  "customer": {
+    "id": 3396875124905,
+    "email": "trung@brauz.com",
+    "accepts_marketing": false,
+    "created_at": "2020-10-07T10:44:55+11:00",
+    "updated_at": "2021-03-30T21:35:32+11:00",
+    "first_name": "",
+    "last_name": "Nguen",
+    "orders_count": 0,
+    "state": "disabled",
+    "total_spent": "0.00",
+    "last_order_id": null,
+    "note": null,
+    "verified_email": true,
+    "multipass_identifier": null,
+    "tax_exempt": false,
+    "phone": null,
+    "tags": "",
+    "last_order_name": null,
+    "currency": "AUD",
+    "accepts_marketing_updated_at": "2020-10-07T10:44:56+11:00",
+    "marketing_opt_in_level": null,
+    "admin_graphql_api_id": "gid://shopify/Customer/3396875124905",
+    "metafields": [],
+    "default_address": {
+      "id": 6298276364457,
+      "customer_id": 3396875124905,
+      "first_name": "",
+      "last_name": "Nguen",
+      "company": null,
+      "address1": "Nike Melbourne Central , 414 La Trobe Street",
+      "address2": "",
+      "city": "Melbourne",
+      "province": "Victoria",
+      "country": "Australia",
+      "zip": "3000",
+      "phone": null,
+      "name": "Nguen",
+      "province_code": "VIC",
+      "country_code": "AU",
+      "country_name": "Australia",
+      "default": true
+    }
+  }
+}
